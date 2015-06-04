@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Monoton);
+
+body, h1, h2, h3, h4, h5, h6 {
+	font-family: 'Lato';
+}
+
+.logo {
+	font-family: 'Monoton';
+	font-size: 4rem;
+}
+
+table tr td, table th {
+	padding: .75rem 1rem;
+}
+
+p {
+	font-size: 1.1rem;
+}
+
+p.h3 {
+	font-size: 2rem;
+	font-weight: 300;
+}
+
+pre {
+	overflow: auto;
+}
+
+.right-2 {
+	right: 2rem;
+}
+
+.bottom-2 {
+	bottom: 2rem;
+}
+
+.table-sort-search-container {
+	position: absolute;
+	left: 1px;
+	top: 45px;
+	right: 1px;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.table-sort-search-input {
+  width: 100%;
+  border: none;
+  text-indent: .5rem;
+}
+
+.table-sort th {
+	cursor: pointer;
+}
+
+.table-sort-highlight {
+  background-color: #2afd77;
+}
