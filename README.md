@@ -15,3 +15,4 @@ To begin, simply download the source files [here](http://#.com) or by cloning th
 Finally, include the path to the htttml.js file, ideally right before your closing body tag.
 
 Once you have HTTTML included on your page, your custom HTML tags will be converted back to their default tags. The js is not required, but it is encouraged that you include it if you need your HTML to be completely semantic.# htttml
+# htttml
