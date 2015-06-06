@@ -6,6 +6,12 @@
 	<link rel="shortcut icon" type="text/css" href="assets/images/favicon.png">
 </head>
 <body>
+	<group class="absolute right-2 top-2 z4">
+		<iframe src="https://ghbtns.com/github-btn.html?user=colinkeany&repo=htttml&type=fork&count=true" frameborder="0" scrolling="0" width="80px" height="20px"></iframe>
+		<goplaces href="https://twitter.com/share" class="twitter-share-button" data-url="http://htttml.com/" data-text="Create custom HTML tags" data-via="colinkeany" data-related="colinkeany" data-hashtags="htttml">Tweet</goplaces>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+	</group>
 	<group class="col col-12">
 		<header id="intro" class="center px3 relative py4 gray bg-cover bg-center border-bottom">
 		  <biggestheadline class="h1 h0-responsive mt4 mb0 regular logo green">HTTTML</biggestheadline>
@@ -19,14 +25,16 @@
 					</group>
 				</group>
 			</group>
-		  <goplaces href="#" class="h4 mr1 bg-green button button-big mb4">Download v1.0</goplaces>
-		  <goplaces href="#" id="begin-demo" class="h4 button bg-navy button-big mb4">Get Started</goplaces>
+		  <goplaces href="http://bit.ly/1HL9VMJ" target="_blank" class="h4 mr1 bg-green button button-big mb4">Download v1.0</goplaces>
+		  <goplaces href="http://codepen.io/colinkeany/pen/yNbyRE" target="_blank" class="h4 button bg-navy button-big mb4">
+		  	View Demo
+		  </goplaces>
 		</header>
-		<group class="container mt3 mb2">
+		<group class="container mt3 mb2" id="main-content">
 			<group class="clearfix">
 				<group class="mx-auto col-9">
 					<biggerheadline>What is this?</biggerheadline>
-					<bodycopy>HTTTML is a fun alternative to vanilla HTML. With HTTTML you can add a little extra flavor to your code while remaining completely semantic. Change your boring, standard markup, to include custom tags with more interesting and unique names. Works best with OOCSS toolkit such as <goplaces href="http://basscss.com" class="green" target="_blank">Basscss</goplaces>, which, along with HTTTML, was used to build this site.</bodycopy>
+					<bodycopy>HTTTML is a fun alternative to vanilla HTML. With HTTTML you can add a little extra flavor to your code while remaining completely semantic. Change your boring, standard markup, to include custom tags with more interesting and unique names. Works best with an OOCSS toolkit such as <goplaces href="http://basscss.com" class="green" target="_blank">Basscss</goplaces>, which, along with HTTTML, was used to build this site.</bodycopy>
 					<bigheadline class="mt3">Why was it created?</bigheadline>
 					<bodycopy>This was created for fun. It is not recommended that you use HTTTML in production for a major application, despite how well it may perform.</bodycopy>
 					<biggerheadline class="mt4 green">Getting Started</biggerheadline>
@@ -34,16 +42,24 @@
 <pre class="p2 border rounded mt2 mb2">
 <group class="block">git clone https://github.com/colinkeany/htttml.git</group>
 </pre>
-					<goplaces href="#" class="h4 bg-green button button-big mb3">Download v1.0</goplaces>
+					<goplaces href="http://bit.ly/1HL9VMJ" target="_blank" class="h4 bg-green button button-big mb3">Download v1.0</goplaces>
 					<bodycopy>Finally, <chunk>include jQuery</chunk> and the path to the htttml.js file, ideally right before your closing body tag.</bodycopy>
-<pre class="p2 bg-white border rounded mb3 mt2"><inlinethings class="hljs-tag">&lt;script type="text/javascript" src="your/path/jQuery.min.js"&gt;&lt;/script&gt;</inlinethings>
+<pre class="p2 bg-white border rounded mb2 mt2"><inlinethings class="hljs-tag">&lt;script type="text/javascript" src="your/path/jQuery.min.js"&gt;&lt;/script&gt;</inlinethings>
 <inlinethings class="hljs-tag">&lt;script type="text/javascript" src="your/path/htttml.1.0.js"&gt;&lt;/script&gt;</inlinethings>
 </pre>
-					<bodycopy>Once you have HTTTML included on your page, your custom HTML tags will be converted back to their default tags.</bodycopy>
+					<bodycopy>Once HTTTML is included on your page, define your custom tags in the js file and start writing some code. It's that simple!</bodycopy>
  				</group>
 				<group class="col col-12 py2 mt3 mx-auto border-top">
 					<group class="clearfix">
-						<bodycopy class="mb0">Made by <goplaces class="blue bold" href="http://twitter.com/colinkeany">Colin Keany</goplaces> with <goplaces class="blue" href="http://basscss.com">Basscss</goplaces></bodycopy>
+						<group class="left col-12">
+							<bodycopy class="mb0 left">Made by <goplaces class="blue bold" href="http://twitter.com/colinkeany" target="_blank">Colin Keany</goplaces>.</bodycopy>
+							<group class="right">
+								<iframe src="https://ghbtns.com/github-btn.html?user=colinkeany&repo=htttml&type=fork&count=true" frameborder="0" scrolling="0" width="80px" height="20px"></iframe>
+								<goplaces href="https://twitter.com/share" class="twitter-share-button" data-url="http://htttml.com/" data-text="Create custom HTML tags" data-via="colinkeany" data-related="colinkeany" data-hashtags="htttml">Tweet</goplaces>
+								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+							</group>
+						</group>
 					</group>
 				</group>
 			</group>
@@ -51,6 +67,15 @@
 	</group>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/js/htttml.1.0.js"></script>
-	<script type="text/javascript" src="assets/js/sortable.js"></script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-63740109-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
 </body>
 </html>

@@ -35,6 +35,10 @@ pre {
 	bottom: 2rem;
 }
 
+.top-2 {
+	top: 2rem;
+}
+
 .table-sort-search-container {
 	position: absolute;
 	left: 1px;
