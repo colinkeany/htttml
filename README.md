@@ -10,8 +10,11 @@ This was created for fun. It is not recommended that you use HTTTML in productio
 
 ## Getting Started
 
-To begin, simply download the source files [here](http://#.com) or by cloning this repo.
+To begin, simply download the source files [here](http://bit.ly/1HL9VMJ) or by cloning this repo.
 
-Finally, include the path to the htttml.js file, ideally right before your closing body tag.
+Finally, include jQuery and the path to the htttml.js file, ideally right before your closing body tag.
 
-Once you have HTTTML included on your page, your custom HTML tags will be converted back to their default tags.
+```<script type="text/javascript" src="your/path/jQuery.min.js"></script>```
+```<script type="text/javascript" src="your/path/htttml.1.0.js"></script>```
+
+Once HTTTML is included on your page, define your custom tags in the js file and start writing some code. It's that simple!
