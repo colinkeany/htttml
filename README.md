@@ -4,6 +4,8 @@
 
 HTTTML is a fun alternative to vanilla HTML. With HTTTML you can add a little extra flavor to your code while remaining completely semantic. Change your boring, standard markup, to include custom tags with more interesting and unique names. Works best with object-oriented CSS boilerplates such as [Basscss](http://basscss.com), which, along with HTTTML, was used to build this site.
 
+[View Demo](http://codepen.io/colinkeany/pen/yNbyRE)
+
 ### Why was it created?
 
 This was created for fun. It is not recommended that you use HTTTML in production for a major application, despite how well it may perform.
