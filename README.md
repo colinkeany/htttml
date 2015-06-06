@@ -17,6 +17,7 @@ To begin, simply download the source files [here](http://bit.ly/1HL9VMJ) or by c
 Finally, include jQuery and the path to the htttml.js file, ideally right before your closing body tag.
 
 ```<script type="text/javascript" src="your/path/jQuery.min.js"></script>```
+<br/>
 ```<script type="text/javascript" src="your/path/htttml.1.0.js"></script>```
 
 Once HTTTML is included on your page, define your custom tags in the js file and start writing some code. It's that simple!
