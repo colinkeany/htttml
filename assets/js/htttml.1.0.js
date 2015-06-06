@@ -130,7 +130,7 @@ var data = {
 
 };
 
-//Big thanks to @ChasingUX (Jesse Chase)
+//Big thanks to @ChasingUX (Jesse Chase) for helping cleanup the js
 //This is where the magic happens!
 
 $.each(data, function(key, value) {
